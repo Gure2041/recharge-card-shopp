@@ -1,0 +1,65 @@
+<p>Buy MTN, Glo, Airtel, and 9mobile recharge cards easily.</p>
+                <a class="cta-button" href="#recharge-form">Buy Now</a>
+            </div>
+            <div class="card">
+                <img src="https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif" alt="Buy Data">
+                <h2>Buy Data</h2>
+                <p>Purchase data bundles directly from your local bank.</p>
+                <a class="cta-button" href="#data-form">Buy Data</a>
+            </div>
+            <div class="card">
+                <img src="https://media.giphy.com/media/3o7aCR8xwjwTySOiDm/giphy.gif" alt="Trade Gift Cards">
+                <h2>Trade Gift Cards</h2>
+                <p>Trade your gift cards for cash or other services.</p>
+                <a class="cta-button" href="#giftcards-form">Trade Now</a>
+            </div>
+        </div>
+
+        <div id="recharge-form" class="form-section">
+            <h2>Buy Recharge Cards</h2>
+            <form onsubmit="handleSubmit(event)">
+                <select required>
+                    <option value="">Select Network</option>
+                    <option value="mtn">MTN</option>
+                    <option value="glo">Glo</option>
+                    <option value="airtel">Airtel</option>
+                    <option value="9mobile">9mobile</option>
+                </select>
+                <input type="number" placeholder="Amount" required>
+                <input type="text" placeholder="Phone Number" required>
+                <button type="submit">Buy Now</button>
+            </form>
+        </div>
+
+        <div id="data-form" class="form-section">
+            <h2>Buy Data</h2>
+            <form onsubmit="handleSubmit(event)">
+                <select required>
+                    <option value="">Select Network</option>
+                    <option value="mtn">MTN</option>
+                    <option value="glo">Glo</option>
+                    <option value="airtel">Airtel</option>
+                    <option value="9mobile">9mobile</option>
+                </select>
+                <input type="number" placeholder="Data Amount (MB)" required>
+                <input type="text" placeholder="Phone Number" required>
+                <button type="submit">Buy Now</button>
+            </form>
+        </div>
+
+        <div id="giftcards-form" class="form-section">
+            <h2>Trade Gift Cards</h2>
+            <form onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Gift Card Type" required>
+                <input type="number" placeholder="Amount" required>
+                <button type="submit">Trade Now</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Recharge Card Shop. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
